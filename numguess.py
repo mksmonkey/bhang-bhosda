@@ -21,10 +21,11 @@ while True:
             if guess == num:
                 print("correct answer")
                 break
+        break
 
     except ValueError:
         print("number likh le bhai!")
-    break
+    
 
 input("Press Enter to leave")
     
